@@ -24,10 +24,44 @@ const Post = () => {
     }
     useEffect(fetch,[postId])
 
-    
+    useEffect(()=>{
+        const fetch = async() =>{
+            const response = await axios.get(
+                '${baseURL}/post/${postID}/comment',
+                {
+                    header: {
+                        'app-id' : '60155b1129a32e0319672e4a' 
+                    }
+                }
+            )
+            console.log(response.data)
+            setComment(response.data.data)
+        }
+        fetch()
+    },[])
+
     return (
         <>
             <h1>display post data from api here</h1>
+            {post!=null?(
+                <div style={{margin: '20px',padding:'0px'}}>
+                <p>tag : {post.tags}</p>
+                <img src={post.image} width='250' />
+                <p>{post.owner.firstname}{post.owner.lastname}</p>
+                <p>Likes : {post.like}</p>
+                <p><strong>comments</strong></p>
+                {
+                    comment.map( item=>(
+                        <p>
+                            {item.owner.firstname} {item.owner.lastname} : {item.message}
+                        </p>
+                    ))
+                }
+               </div>
+            ):null}
+            <link href="/post">
+                back
+            </link>
         </>
     )
 }
