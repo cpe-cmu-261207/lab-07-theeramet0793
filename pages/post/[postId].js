@@ -14,7 +14,7 @@ const Post = () => {
                 '${baseURL/post/${postID}}',
                 {
                     header: {
-                        'app-id' : '60155b1129a32e0319672e4a' 
+                        'app-id' : '66018cf41531eb2ce30e90218' 
                     }
                 }
             )
@@ -30,7 +30,7 @@ const Post = () => {
                 '${baseURL}/post/${postID}/comment',
                 {
                     header: {
-                        'app-id' : '60155b1129a32e0319672e4a' 
+                        'app-id' : '6018cf41531eb2ce30e90218' 
                     }
                 }
             )
