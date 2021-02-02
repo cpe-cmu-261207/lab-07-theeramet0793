@@ -8,6 +8,23 @@ const Post = () => {
     const [post,setPost] = useState(null)
     const [comment,setComment] = useState([])
 
+    const fetch = async () => {
+        if(postId){
+            const response = await axios.get(
+                '${baseURL/post/${postID}}',
+                {
+                    header: {
+                        'app-id' : '60155b1129a32e0319672e4a' 
+                    }
+                }
+            )
+            console.log(response.data)
+            setPost(response.data)
+        }
+    }
+    useEffect(fetch,[postId])
+
+    
     return (
         <>
             <h1>display post data from api here</h1>
