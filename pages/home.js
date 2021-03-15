@@ -42,11 +42,11 @@ const Home = () => {
             <h1>Sunantha Rueangrit</h1>
             <h2>Web Developer</h2>
             <h3>
-              <Link href="mailto:sunantha_ru@cmu.ac.th">
-                sunantha_ru@cmu.ac.th
+              <Link href="mailto:theerametmetha@gmail.com">
+                theerametmetha@gmail.com
               </Link>
             </h3>
-            <h3>0812345688</h3>
+            <h3>0965585186</h3>
           </td>
           <td>
             <img
@@ -69,21 +69,21 @@ const Home = () => {
               <h2>Profile</h2>
             </p>
             <p>
-              <b>Address : </b>443 Banpaina, Bantuek, Sisatchanalai, Sukhuthai
-              64130{" "}
+              <b>Address : </b>205/1, klangdong, Thungsaliam, Sukhuthai
+              64150{" "}
             </p>
             <p>
               <b>Facebook :</b>
-              <Link href="https://web.facebook.com/ewl.sunanta">
+              <Link href="https://web.facebook.com/theerametmetha">
                 {" "}
-                Sunanta Ruangrit
+                theerametmetha
               </Link>
             </p>
             <p>
               <b>Instagram :</b>
-              <Link href="https://www.instagram.com/aew_babygil/?hl=en">
+              <Link href="https://www.instagram.com/miike.trm/?hl=en">
                 {" "}
-                aew_babygil
+                miike.trm
               </Link>
             </p>
             <h2>Skills</h2>
@@ -101,13 +101,13 @@ const Home = () => {
               independent
             </p>
             <h2>Technical</h2>
-            <p>HTML, CSS, Javascript</p>
+            <p>java, C, c++</p>
             <h2>Education</h2>
             <p>
               <b>Chiang Mai University</b>
             </p>
             <p>
-              Sophomore,Computer Engineering Major, Engineering Faculty— 2.99
+              Sophomore,Computer Engineering Major, Engineering Faculty— 3.25
               GPA
             </p>
           </td>

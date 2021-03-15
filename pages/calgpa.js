@@ -158,14 +158,14 @@ function App() {
           <table style={{ width: "100%", borderStyle: "dashed" }}>
             <tr style={{ textAlign: "center" }}>
               <td>
-                <h1>Sunantha Rueangrit</h1>
+                <h1>Theeramet  Metha</h1>
                 <h2>Web Developer</h2>
                 <h3>
-                  <Link href="mailto:sunantha_ru@cmu.ac.th">
-                    sunantha_ru@cmu.ac.th
+                  <Link href="mailto:theerametmetha@gmail.com">
+                    theerametmetha@gmail.com
                   </Link>
                 </h3>
-                <h3>0812345688</h3>
+                <h3>0965585186</h3>
               </td>
               <td>
                 <img
