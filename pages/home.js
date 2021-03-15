@@ -88,8 +88,7 @@ const Home = () => {
             </p>
             <h2>Skills</h2>
             <p>
-              <b>Web Design </b>: Assertively exploit wirelessinitiatives rather
-              thansynergistic corecompetenc
+              <b>C++  </b>: coding c++ with devc++
             </p>
             <p>
               <b>Interface Design</b> : Credibly streamline mission-critical
@@ -107,7 +106,7 @@ const Home = () => {
               <b>Chiang Mai University</b>
             </p>
             <p>
-              Sophomore,Computer Engineering Major, Engineering Faculty— 3.25
+              Sophomore,Computer Engineering , Faculty of Engineering — 3.25
               GPA
             </p>
           </td>
