@@ -69,7 +69,7 @@ const Home = () => {
               <h2>Profile</h2>
             </p>
             <p>
-              <b>Address : </b>205/1, klangdong, Thungsaliam, Sukhuthai
+              <b>Address : </b>205/1, klangdong, Thungsaliam, Sukhothai
               64150{" "}
             </p>
             <p>
